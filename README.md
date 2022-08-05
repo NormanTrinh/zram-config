@@ -2,5 +2,5 @@
 
 ### edit:
 ```
-sudo nano /usr/bin/init-zram-swapping
+sudo gedit /usr/bin/init-zram-swapping
 ```
