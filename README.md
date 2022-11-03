@@ -9,3 +9,8 @@ sudo apt install zram-config
 ```
 sudo gedit /usr/bin/init-zram-swapping
 ```
+
+### swappiness
+```
+sudo bash -c "echo 'vm.swappiness = 5' >> /etc/sysctl.conf"
+```
